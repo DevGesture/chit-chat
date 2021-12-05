@@ -1,0 +1,58 @@
+{
+  "name": "chit-chat-backend",
+  "version": "1.0.0",
+  "description": "Basic social media web application",
+  "main": "bin/start.js",
+  "bin": {
+    "chit-chat-backend": "start.js"
+  },
+  "scripts": {
+    "server": "nodemon --exec babel-node ./bin/start.js",
+    "start:dev": "npm-run-all server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevGesture/chit-chat.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongoose",
+    "es6"
+  ],
+  "author": "Muhammad Awais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevGesture/chit-chat/issues"
+  },
+  "homepage": "https://github.com/DevGesture/chit-chat#readme",
+  "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/register": "^7.16.0",
+    "@types/body-parser": "^1.19.2",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.14",
+    "morgan": "^1.10.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}
